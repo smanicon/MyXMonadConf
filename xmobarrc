@@ -1,0 +1,30 @@
+Config { font = "-misc-fixed-*-*-*-*-13-*-*-*-*-*-*-*"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = TopW L 100 
+       , iconRoot = "/home/octo/.xmobar"
+       , commands = [ Run Network "enp0s31f6" ["-L","0","-H","32","--normal","green","--high","red"] 10
+                    , Run Network "wlp3s0" ["-L","0","-H","32","--normal","green","--high","red"] 10
+                    , Run Wireless "wlp3s0" [
+                          "-t", "<qualityipat> <ssid>",
+                          "--",
+                          "--quality-icon-pattern", "<icon=xpm/wireless_%%.xpm/>"] 10
+		                , Run Battery [
+                          "-t", "<leftipat>",
+                          "-L", "15", "-H", "70",
+                          "--low", "red", "--normal", "yellow", "--high", "green",
+                          "--", "-o","Bat", "-O","AC",
+                          "-A", "10",
+                          "-a", "notify-send -u critical 'Battery running out!!' --icon=battery-caution",
+                          "--off-icon-pattern", "<icon=xpm/battery_%%.xpm/>",
+                          "--on-icon-pattern",  "<icon=xpm/charging_%%.xpm/>",
+                          "--idle-icon-pattern", "<icon=battery_idle.xbm/>"] 50
+                    , Run Cpu ["-L","15","-H","50","--normal","green","--high","red"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%a %b %_d %Y %H:%M:%S" "date" 10
+                    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%StdinReader% }{ %cpu% | %memory% | %enp0s31f6% %wlp3s0% | %wlp3s0wi% %battery% | %date%"
+       }

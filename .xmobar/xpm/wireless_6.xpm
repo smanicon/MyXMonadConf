@@ -1,0 +1,18 @@
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #38b000",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"           xxx      ",
+"           xxx      ",
+"           xxx      ",
+"      xxx  xxx      ",
+"      xxx  xxx      ",
+" xxx  xxx  xxx      ",
+" xxx  xxx  xxx      ",
+" xxx  xxx  xxx  xxx ",
+"                    "};

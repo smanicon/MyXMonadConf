@@ -1,0 +1,167 @@
+> battery_0
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #e01e37",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+" xxx  xxx  xxx  xxx ",
+> battery_1
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #e01e37",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+" xx                 ",
+" xx                 ",
+" xxx  xxx  xxx  xxx ",
+> battery_2
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #e01e37",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+" xxx                ",
+" xxx                ",
+" xxx  xxx  xxx  xxx ",
+> battery_3
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #ff8800",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"      xx            ",
+"      xx            ",
+" xxx  xx            ",
+" xxx  xx            ",
+" xxx  xxx  xxx  xxx ",
+> battery_4
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #ff8800",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"      xxx           ",
+"      xxx           ",
+" xxx  xxx           ",
+" xxx  xxx           ",
+" xxx  xxx  xxx  xxx ",
+"                    "};
+> battery_5
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #ff8800",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"           xx       ",
+"           xx       ",
+"           xx       ",
+"      xxx  xx       ",
+"      xxx  xx       ",
+" xxx  xxx  xx       ",
+" xxx  xxx  xx       ",
+" xxx  xxx  xxx  xxx ",
+"                    "};
+> battery_6
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #38b000",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"           xxx      ",
+"           xxx      ",
+"           xxx      ",
+"      xxx  xxx      ",
+"      xxx  xxx      ",
+" xxx  xxx  xxx      ",
+" xxx  xxx  xxx      ",
+" xxx  xxx  xxx  xxx ",
+"                    "};
+> battery_7
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #38b000",
+"                    ",
+"                xx  ",
+"                xx  ",
+"                xx  ",
+"           xxx  xx  ",
+"           xxx  xx  ",
+"           xxx  xx  ",
+"      xxx  xxx  xx  ",
+"      xxx  xxx  xx  ",
+" xxx  xxx  xxx  xx  ",
+" xxx  xxx  xxx  xx  ",
+" xxx  xxx  xxx  xxx ",
+"                    "};
+> battery_8
+/* XPM */
+static char * exemple_xpm[] = {
+"20 13 2 1",
+" c None",
+"xc #38b000",
+"                    ",
+"                xxx ",
+"                xxx ",
+"                xxx ",
+"           xxx  xxx ",
+"           xxx  xxx ",
+"           xxx  xxx ",
+"      xxx  xxx  xxx ",
+"      xxx  xxx  xxx ",
+" xxx  xxx  xxx  xxx ",
+" xxx  xxx  xxx  xxx ",
+" xxx  xxx  xxx  xxx ",
+"                    "};
